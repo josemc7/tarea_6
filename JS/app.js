@@ -35,3 +35,22 @@ function sumando (c,d){
 }
 let res = sumando (5,6,1,2,3);
 console.log(res);
+
+/**
+ * SEGUNDA FUNCION 
+ */
+
+let total = 0 ;
+function sumadito (x , y ){
+    let aux = x + y ;
+    total = aux ;
+    return total;
+}
+console.log(sumadito(10,12));
+
+function resta (a, b){
+    let aux = a - b;
+    total = aux;
+    return total;
+}
+console.log(resta(10, 3));
